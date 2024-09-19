@@ -1,7 +1,7 @@
 # Solvated-ASE-with-ANI
-Small repo for code that I made to run solvated systems from smiles string in ASE
-Made this small code to take in two smiles strings for a solute and solvent then add the solute around the solvent and run MD using ANI as a calculator
-Pretty much a quick and dirty way to sample solvated structures, also ASE did not have a nice way to solvate with any molecule so I used rdkit
+Small repo for code that I made to run solvated systems from smiles string in ASE.
+Made this small code to take in two smiles strings for a solute and solvent then add the solute around the solvent and run MD using ANI as a calculator.
+Pretty much a quick and dirty way to sample solvated structures, also ASE did not have a nice way to solvate with any molecule so I used rdkit.
 
 How to use:
 
