@@ -18,6 +18,12 @@ $python3 solvated_ase_ani.py [smiles] [solvent_smiles] [num_molecules] [temp] [s
 
 ### these next three are optional. but if you include one you have to include them all, all or none
 
+so if you run something like:
+```
+$python3 solvated_ase_ani.py CC O 50 1000 100
+```
+it will generate a structure of one ethane in 50 waters, and run the MD at 1000K for 100 steps
+
 Citations:
 * TorchANI: https://aiqm.github.io/torchani/
 * TorchANI ASE tutorial: https://aiqm.github.io/torchani/examples/ase_interface.html
