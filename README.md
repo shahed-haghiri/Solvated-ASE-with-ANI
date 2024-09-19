@@ -16,6 +16,8 @@ $python3 solvated_ase_ani.py [smiles] [solvent_smiles] [num_molecules] [temp] [s
 - [temp]: temperature that you want to run the MD at, in kelvin, defaults to 298 if nothing is given
 - [steps]: number of steps that you want to run the MD for, defaults to 500 if nothing is given
 
+### these next three are optional. but if you include one you have to include them all, all or none
+
 Citations:
 * TorchANI: https://aiqm.github.io/torchani/
 * TorchANI ASE tutorial: https://aiqm.github.io/torchani/examples/ase_interface.html
